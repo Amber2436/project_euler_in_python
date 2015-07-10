@@ -5,7 +5,7 @@ import math as m
 def primegen(n):
     primelist = [1009]
     i = 1011
-    while primelist[-1] < 10000:
+    while primelist[-1] < n:
         ind = 0
         for j in range(2,int(m.sqrt(i))+1):
             if i%j == 0:
@@ -17,9 +17,8 @@ def primegen(n):
             i+= 2
     return primelist
 
-#print  primegen(1100)
 
-primelist = primegen(1100)
+primelist = primegen(10000)
 
 for i in range(len(primelist)):
 	a = primelist[i]
