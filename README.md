@@ -1,1 +1,1 @@
-# project_euler_in_python
+This repository is my solution to some project euler problems using Python.
