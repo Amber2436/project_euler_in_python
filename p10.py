@@ -12,7 +12,7 @@ def sumprime(n):
 	summ = 0
 	i = 1
 	for i in range(1,n+1):
-		if is_prime(i) ==True:
+		if is_prime(i):
 			summ = summ + i 
 			i = i + 2
 	return summ 

@@ -26,7 +26,7 @@ def findprimefactor(n):
 					mylist.append(n/i)
 	newlist = []
 	for number in mylist:
-		if is_prime(number) == True:
+		if is_prime(number):
 			newlist.append(number)
 	return newlist
 

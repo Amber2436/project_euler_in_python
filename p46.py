@@ -27,6 +27,6 @@ for each in range(1,1000000,2):
 				break
 			if is_prime(diff): # if it still satisfies the conjecture
 				break
-		if ind == True:
+		if ind:
 			print(answer)
 			break

@@ -28,7 +28,7 @@ count = 0
 for i in range(len(words)):
     temp = words[i]
     num = findloc(temp)
-    if istriangle(num) == True:
+    if istriangle(num):
         count += 1
 
 print count
